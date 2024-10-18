@@ -1,5 +1,4 @@
-# Let's create the markdown content for objects in JavaScript, including Big O complexities for common operations.
-content = """
+
 # Introduction to Objects in JavaScript
 
 Objects in JavaScript are one of the fundamental building blocks of the language. They allow you to store collections of key-value pairs and provide a way to model real-world entities. Unlike arrays, which store data in a sequential index-based manner, objects store data using named properties.
