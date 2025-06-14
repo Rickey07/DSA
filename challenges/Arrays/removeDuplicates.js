@@ -16,3 +16,7 @@ function removeDuplicates (nums=[]) {
 }
 const nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
 console.log(removeDuplicates(nums))
+
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1000);
+}
