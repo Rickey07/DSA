@@ -26,3 +26,26 @@ function twoSum(elements=[],target) {
 }
 
 console.log(twoSum([2,4,3,9,1],10))
+
+/**
+ * @param {number[]} numbers
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(numbers, target) {
+
+    // Solving using two pointers.
+    let left = 0;
+    let right = numbers?.length-1;
+    while(left<right) {
+        let total = numbers[left] + numbers[right];
+        if(total === target) {
+            return [left+1,right+1]
+        }
+        if(total>target) {
+            right--
+        } else {
+            left++
+        }
+    }
+};
